@@ -1,0 +1,96 @@
+# ──────────────────────────────────────────────
+#  PayPilot AI — .gitignore
+# ──────────────────────────────────────────────
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.manifest
+*.spec
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-link
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+nosetests.xml
+junit.xml
+*.log
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+.env/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+*.tsbuildinfo
+.npm
+.yarn/
+
+# Docker
+.docker/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Uploads / Media
+uploads/
+media/
+
+# Alembic
+backend/alembic/versions/*.pyc
+
+# Test artifacts
+*.xml
+*.html
+coverage/
+
+# Secrets & Keys
+*.pem
+*.key
+*.crt
+*.p12

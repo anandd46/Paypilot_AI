@@ -1,0 +1,57 @@
+# PayPilot AI — Backend Dependencies
+# Python 3.11+ (tested on Python 3.14 with binary-only installs)
+# Install with: pip install -r requirements.txt --only-binary=:all: --prefer-binary
+
+# ── Web Framework ─────────────────────────────
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ── Database ──────────────────────────────────
+sqlalchemy[asyncio]
+alembic
+asyncpg
+# psycopg2 - use only if PostgreSQL sync driver needed (binary wheel may not exist)
+# psycopg2-binary
+
+# ── Authentication & Security ─────────────────
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+
+# ── Validation ────────────────────────────────
+pydantic
+pydantic-settings
+email-validator
+
+# ── AI Providers ──────────────────────────────
+openai
+# tiktoken - requires Rust build, optional
+# tiktoken
+
+# ── Embeddings (local fallback) ───────────────
+scikit-learn
+numpy
+
+# ── HTTP / Async ──────────────────────────────
+httpx
+aiofiles
+
+# ── Payments ──────────────────────────────────
+razorpay
+
+# ── Rate Limiting ─────────────────────────────
+slowapi
+
+# ── Configuration ─────────────────────────────
+python-dotenv
+
+# ── Date / Time ───────────────────────────────
+python-dateutil
+
+# ── Code Quality (dev) ────────────────────────
+ruff
+pytest
+pytest-asyncio
+pytest-cov
+faker
