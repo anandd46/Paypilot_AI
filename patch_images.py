@@ -1,5 +1,5 @@
 """Patch seed.py: add image_url to all products missing them."""
-import re
+import re 
 
 IMAGE_MAP = {
     "Samsung Galaxy S24 Ultra": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&q=80",
