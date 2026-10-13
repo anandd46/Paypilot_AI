@@ -4,7 +4,7 @@ Run from backend directory: python update_images.py
 """
 import asyncio 
 import sys
-import os
+import os 
 
 sys.path.insert(0, os.path.dirname(__file__))
 
