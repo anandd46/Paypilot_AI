@@ -1,5 +1,5 @@
 """Agent tools — all tool calls that the agent can make.
- 
+  
 IMPORTANT: All tools retrieve data from the database.
 The LLM NEVER directly reads or writes database records.
 """
