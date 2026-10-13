@@ -1,5 +1,5 @@
 # PayPilot AI — Autonomous Merchant Growth & Agentic Checkout Platform
-
+ 
 > **"Commerce that thinks, recommends, and converts."**
 >
 > An AI-powered agentic commerce platform for intelligent product discovery, personalized recommendations, merchant growth, conversational shopping, secure checkout, and explainable payment workflows.
