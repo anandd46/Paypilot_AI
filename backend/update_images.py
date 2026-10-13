@@ -2,7 +2,7 @@
 Update all product image_url fields to reliable, always-available Unsplash/Picsum URLs.
 Run from backend directory: python update_images.py
 """
-import asyncio
+import asyncio 
 import sys
 import os
 
