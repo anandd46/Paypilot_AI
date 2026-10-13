@@ -1,5 +1,5 @@
 """PayPilot AI Commerce Agent — Explicit State Machine.
-
+ 
 States:
     RECEIVE_REQUEST → CLASSIFY_INTENT → EXTRACT_ENTITIES → PLAN
     → SELECT_TOOL → EXECUTE_TOOL → VALIDATE_RESULT
