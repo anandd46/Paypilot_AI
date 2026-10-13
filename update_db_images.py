@@ -1,5 +1,5 @@
 """Update product images directly in the SQLite DB."""
-import sqlite3 
+import sqlite3  
 
 IMAGE_MAP = {
     "Samsung Galaxy S24 Ultra": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=600&q=80",
