@@ -1,7 +1,7 @@
 # PayPilot AI — Backend Dependencies
 # Python 3.11+ (tested on Python 3.14 with binary-only installs)
 # Install with: pip install -r requirements.txt --only-binary=:all: --prefer-binary
-
+ 
 # ── Web Framework ─────────────────────────────
 fastapi
 uvicorn[standard]
